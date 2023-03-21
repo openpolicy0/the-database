@@ -71,7 +71,7 @@ try:
            table.add_row("TEXT", d_text)
            console=Console()
            console.print(table)
-           print("[bold white][INFO] importing text into"+d_file+"[/bold white]")
+           print("[bold white][INFO] importing text into "+d_file+"[/bold white]")
            sleep(1)
            print("[bold white][INFO] writing text { "+d_text+" } [/bold white]")
            sleep(0.6)
