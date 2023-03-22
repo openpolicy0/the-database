@@ -31,6 +31,8 @@ try:
              read()
         elif data=="delete":
              delete()
+        elif data=="exit":
+             exit()
         else:
             print("[bold red]command not found[/bold red]")
             menu()
@@ -42,6 +44,7 @@ try:
         add            add some data to your file
         read           read a file and output it to the screen
         delete         delete the file you made
+        exit           exit script
         [/bold yellow]""")
         menu()
 
@@ -101,6 +104,10 @@ try:
         else:
             print("[bold red]File not found[/bold red]")
         menu()
+
+    def exit():
+        print("[blue]exiting script...[/blue]")
+        sys.exit()
 
     menu()
 
