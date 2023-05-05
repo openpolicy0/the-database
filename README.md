@@ -9,6 +9,6 @@ u can add all kinds of things just give it a try
 
 git clone https://github.com/openpolicy0/the-database.git
 
-cd THE-database
+cd the-database
 
 pip install -r requirements.txt or pip3 install -r requirements.txt 
